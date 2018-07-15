@@ -12,7 +12,7 @@ public class GetText : MonoBehaviour
     //通信開始（http://192.***.***.***:5000/）
     public void connectionStart(string name)
     {
-        string POST_URL = "http://192.168.0.23:5000/";
+        string POST_URL = "http://192.***.***.***:5000/";
         WWW www = new WWW(POST_URL);
         StartCoroutine("WaitForRequest", www);
     }
